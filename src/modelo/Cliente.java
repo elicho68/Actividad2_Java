@@ -8,7 +8,6 @@ import java.sql.SQLException;
 import javax.swing.table.DefaultTableModel;
 import java.sql.ResultSet;
 
-
 /**
  *
  * @author Elicho
@@ -58,6 +57,7 @@ Conexion cn;
             parametro.setString(6, getFecha_nacimiento());
             int executar = parametro.executeUpdate();
             System.out.println("Ingreso Exitoso... " + Integer.toString(executar));
+            
             
             cn.cerrar_conexion( );
             

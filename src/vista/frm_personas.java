@@ -7,7 +7,6 @@ package vista;
 
 import modelo.Cliente;
 
-
 /**
  *
  * @author Elicho

@@ -15,8 +15,9 @@ public class main {
      */
     public static void main(String[] args) {
         // TODO code application logic here
-       frm_personas frm =new frm_personas();
-        frm.show();
+       // frm_personas frm =new frm_personas();
+       frm_empleados frm =new frm_empleados(); 
+       frm.show();
 
 /*       Conexion cn = new Conexion();
        cn.abrir_conexion();
