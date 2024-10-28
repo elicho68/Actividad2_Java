@@ -15,9 +15,10 @@ import javax.swing.table.DefaultTableModel;
  * @author Elicho
  */
 public class Empleado extends Persona {
-private String codigo;
-private int id_empleados,id_puesto;    
-Conexion cn;
+    private String codigo;
+    private int id_empleados,id_puesto;    
+    
+    Conexion cn;
 
     public Empleado(){
     }

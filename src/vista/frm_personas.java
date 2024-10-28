@@ -293,7 +293,13 @@ select_datos();
 
     private void btn_actualizarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn_actualizarActionPerformed
         // TODO add your handling code here:
-        cliente = new Cliente(Integer.valueOf(lbl_id.getText()),txt_nit.getText(),txt_nombres.getText(),txt_apellidos.getText(),txt_direccion.getText(),txt_telefono.getText(),txt_nacimiento.getText());
+        cliente = new Cliente(Integer.valueOf(lbl_id.getText()),
+                txt_nit.getText(),
+                txt_nombres.getText(),
+                txt_apellidos.getText(),
+                txt_direccion.getText(),
+                txt_telefono.getText(),
+                txt_nacimiento.getText());
         cliente.actualizar();
 
 //actualiza la tabla para ver el ultimo ingreso        
